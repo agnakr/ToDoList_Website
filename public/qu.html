@@ -1,0 +1,35 @@
+<html>
+
+<body>
+    <h1>no 1:10<br>no 2:5</h1>
+    <script>
+        function sum(a, b) {
+            if (e.code === "1")
+                alert(a + b);
+        }
+
+        sum(1, 2);
+        var wage = document.getElementById("wage");
+        wage.addEventListener("keydown", function (e) {
+            if (e.code === "Enter") {  //checks whether the pressed key is "Enter"
+                validate(e);
+            }
+        });
+
+        function validate(e) {
+            var text = e.target.value;
+            //validation of the input...
+        }
+        event.preventDefault()
+        if (event.keyCode == 1) {
+            event.preventDefault()
+            alert('F11 was pressed');
+        }
+        var e = jQuery.Event("keypress");
+        e.which = 1;
+        $("input").trigger(e);
+
+    </script>
+</body>
+
+</html>
